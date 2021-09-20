@@ -5,5 +5,59 @@
 }
 .countainer{
     width: 80%;
-    margin: auto;
+    min-height: 800px;
+    background-color: green;
+    margin: 10px auto;
+}
+
+.image{
+    width: 30%;
+    background-color: 
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 2%;
+    cursor: pointer;
+    
+}
+.image-top{
+    position: relative;
+    height:
+    background-color: gray;
+    
+}
+img{
+    max-width: 100%;
+    
+}
+.image-bottom{
+    min-height: 50px;
+    font-size: 13px;
+    background-color: orange;
+    padding-top: 10px;
+    
+
+}
+.prezzo-new{
+    color: red;
+}
+.prezzo-old{
+    text-decoration-line: line-through;
+    margin-left: 5px;
+}
+.image-top .seconda{
+     position: absolute;
+     left: 0;
+     top: 0;
+     display: none;
+}
+.image-top:hover .seconda{
+    display: block;
+}
+.hearts{
+    position: absolute;
+    right: 0;
+    top: 20px;
+    font-size: 20px;
+    background-color: white;
+    padding: 5px 10px;
 }
