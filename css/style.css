@@ -6,34 +6,28 @@
 .countainer{
     width: 80%;
     min-height: 800px;
-    background-color: green;
     margin: 10px auto;
 }
 
 .image{
     width: 30%;
-    background-color: 
-    border: 1px solid black;
     display: inline-block;
     margin-left: 2%;
     cursor: pointer;
-    
+    margin-bottom: 30px;
 }
 .image-top{
     position: relative;
-    height:
-    background-color: gray;
-    
+    background-color: gray; 
 }
 img{
     max-width: 100%;
-    
+    display: block;
 }
 .image-bottom{
     min-height: 50px;
     font-size: 13px;
-    background-color: orange;
-    padding-top: 10px;
+    padding-top: 6px;
     
 
 }
@@ -60,4 +54,23 @@ img{
     font-size: 20px;
     background-color: white;
     padding: 5px 10px;
+}
+.image-top .sconto{
+    position: absolute;
+    bottom: 17px;
+    font-size: 11px;
+    color: white;
+}
+.valore{
+    background-color: red;
+}
+.soste{
+    background-color: green;
+    margin-left: 3px;
+}
+.valore, .soste, .ultim-sost{
+    padding: 3px 5px;
+}
+.ultim-sost{
+    background-color: green;
 }
